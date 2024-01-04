@@ -238,7 +238,7 @@ async def start(client, message):
   await teletips.send_message(message.chat.id, text, disable_web_page_preview=True)
 
 
-@teletips.on_message(filters.command("help","المساعده","الاعدادات","الأعدادات"))
+@teletips.on_message(filters.command("help","المساعده","الاعدادات"))
 async def help(client, message):
   text = '''
 **اوامر البوت ايضا متواجده في الجروب**.
